@@ -4,6 +4,9 @@ import cl.ejeldes.springdemo.service.FortuneService;
 
 public class CricketCoach implements Coach {
 
+    private String emailAddress;
+    private String team;
+
     private FortuneService fortuneService;
 
     public CricketCoach() {
@@ -13,6 +16,25 @@ public class CricketCoach implements Coach {
     public void setFortuneService(FortuneService fortuneService) {
         this.fortuneService = fortuneService;
         System.out.println("CricketCoach: inside setter method - setFortuneService");
+    }
+
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
+        System.out.println("CricketCoach: inside setter method - setEmailAddress");
+    }
+
+
+    public void setTeam(String team) {
+        this.team = team;
+        System.out.println("CricketCoach: inside setter method - setTeam");
+    }
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+    public String getTeam() {
+        return team;
     }
 
     @Override
