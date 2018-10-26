@@ -6,7 +6,7 @@
 
 
     <!-- Define your beans here -->
-    <bean id="myFortuneService" class="cl.ejeldes.springdemo.service.HappyFortuneService"/>
+    <bean id="myFortuneService" class="cl.ejeldes.service.HappyFortuneService"/>
     <bean id="myCoach" class="cl.ejeldes.springdemo.TrackCoach" init-method="doMyStartupStuff"
           destroy-method="doMyCleanupStuff">
         <constructor-arg ref="myFortuneService"/>

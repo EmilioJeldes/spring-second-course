@@ -1,6 +1,6 @@
 package cl.ejeldes.springdemo;
 
-import cl.ejeldes.springdemo.service.FortuneService;
+import cl.ejeldes.service.FortuneService;
 
 public class BaseballCoach implements Coach {
 

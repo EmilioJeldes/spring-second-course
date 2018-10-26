@@ -11,7 +11,7 @@
     <context:property-placeholder location="classpath:sport.properties" />
 
     <!-- Define your beans here -->
-    <bean id="myFortuneService" class="cl.ejeldes.springdemo.service.HappyFortuneService" />
+    <bean id="myFortuneService" class="cl.ejeldes.service.HappyFortuneService" />
     <bean id="myCoach" class="cl.ejeldes.springdemo.FutballlCoach" >
         <constructor-arg ref="myFortuneService" />
     </bean>

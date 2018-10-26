@@ -9,7 +9,7 @@
 
 
     <!-- Define your beans here -->
-    <bean id="myFortuneService" class="cl.ejeldes.springdemo.service.HappyFortuneService" />
+    <bean id="myFortuneService" class="cl.ejeldes.service.HappyFortuneService" />
     <bean id="myCoach" class="cl.ejeldes.springdemo.FutballlCoach" scope="prototype" >
         <constructor-arg ref="myFortuneService" />
 

@@ -1,7 +1,5 @@
 package cl.ejeldes.springdemo;
 
-import cl.ejeldes.springdemo.service.FortuneService;
-
 public class MyApp {
 
     public static void main(String[] args) {
